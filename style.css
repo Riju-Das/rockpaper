@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "Poppins";
+    text-align: center;
+
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: rgb(15, 15, 15);
+    height: 85vh;
+    width: 80vw;
+    box-shadow:0 0 20px 5px black;
+    border-radius: 10px;
+
+}
+.outputbox{
+    height: 50%;
+    display: flex;
+    background-color: black;
+}
+.inputbox{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width:350px ;
+    background-color: rgb(10, 10, 10);
+    border-radius: 20px;
+}
+.rockimg{
+    height: 300px;
+    cursor: pointer;
+}
+.rockimg:hover{
+    height: 350px;
+}
+.outputflex1{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    height: 100%;
+    justify-content: center;
+}
+.outputflex{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.Choose{
+    font-size: 50px;
+
+}
