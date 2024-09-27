@@ -83,6 +83,16 @@ function gamescreen(){
     gamechose.setAttribute("class", "Choose")
     gamechoosing.setAttribute("class", "Choose")
 
+
+    if(roundresult==("Its a draw! both chose "+ humanchoice)){
+        gamechoosing.setAttribute("class","whitecolor");
+    }
+    else if(roundresult ==("You lose! "+ computerselection+  " beats "+ humanchoice)){
+        gamechoosing.setAttribute("class","redcolor")
+    }
+    else{
+        gamechoosing.setAttribute("class","greencolor")
+    }
     gameoutput.appendChild(gamechose)
     gameoutput.appendChild(gamechoosing)
 }
